@@ -1,0 +1,17 @@
+.main {
+    min-height: 90vh;
+    padding-top: 20px;
+}
+
+.nav-button {
+    margin-right: 3px;
+}
+
+.my-products {
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+.footer {
+    margin-bottom: 15px;
+}
