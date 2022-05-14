@@ -52,7 +52,7 @@ const ProductScreen = () => {
                             </Row>
                         </ListGroupItem>
                         <ListGroupItem>
-                            <Button className='btn-block' type='button' disabled={product.countInStock === 0}>Add To Cart</Button>
+                            <Button className='btn-block btn-dark' type='button' disabled={product.countInStock === 0}>Add To Cart</Button>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
