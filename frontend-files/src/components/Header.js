@@ -5,7 +5,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="info" variant="dark" expand="lg" className='py-3'>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>Secand</Navbar.Brand>

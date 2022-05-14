@@ -24,9 +24,6 @@ const ProductScreen = () => {
                         <Rating rating={product.rating} numReviews={product.numReviews}></Rating>
                     </ListGroupItem>
                     <ListGroupItem>
-                        Price: {product.price}
-                    </ListGroupItem>
-                    <ListGroupItem>
                         Description: {product.description}
                     </ListGroupItem>
                 </ListGroup>                                                 
