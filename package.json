@@ -1,0 +1,31 @@
+{
+  "name": "secand",
+  "version": "1.0.0",
+  "description": "E-commerce platfrom built using the MERN stack, with features such as shopping cart, product search and checkout.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend-files/server",
+    "server": "nodemon backend-files/server",
+    "client": "npm start --prefix frontend-files",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthaman-01/secand.git"
+  },
+  "author": "Gowthaman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gowthaman-01/secand/issues"
+  },
+  "homepage": "https://github.com/gowthaman-01/secand#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
