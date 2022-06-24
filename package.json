@@ -11,7 +11,10 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "import-data": "node backend-files/seeder",
     "destroy-data": "node backend-files/seeder -d",
-    "deploy": "concurrently \"npm run import-data\" \"npm run server\" \"npm run client\"\"npm run import-data\""
+    "front-end-dir": "cd frontend-files",
+    "main-dir": "cd ..",
+    "install": "npm install",
+    "deploy": "concurrently \"npm run import-data\" \"npm front-end-dir\" \"npm install\" \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
