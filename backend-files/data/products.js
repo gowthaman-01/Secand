@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Airpods',
     image: '/images/airpods.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '2',
     name: 'DJI Ronin',
     image: '/images/ronin.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '3',
     name: 'Yamaha F310 Guitar',
     image: '/images/eguitar.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '4',
     name: 'Yamaha C40 Nylon Guitar',
     image: '/images/nguitar.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '5',
     name: 'Yamaha P-125 Electric Piano',
     image: '/images/electric.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '6',
     name: 'Casio CTX700 Keyborad',
     image: '/images/keyboard.jpg',
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '7',
     name: 'Carnatic Flute',
     image: '/images/flute.jpg',
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '9',
     name: 'Synwin Violin',
     image: '/images/violin.jpg',
     description:
