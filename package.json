@@ -10,7 +10,8 @@
     "client": "npm start --prefix frontend-files",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "import-data": "node backend-files/seeder",
-    "destroy-data": "node backend-files/seeder -d"
+    "destroy-data": "node backend-files/seeder -d",
+    "deploy": "concurrently \"npm run import-data\" \"npm run server\" \"npm run client\"\"npm run import-data\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/gowthaman-01/secand#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
